@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "esc-pos-encoder": "git+https://github.com/abeersaqib/EscPosEncoder.git",
+    "jsbarcode": "^3.11.5",
+    "uuid": "^8.3.2"
+  }
+}
