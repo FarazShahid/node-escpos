@@ -1,6 +1,6 @@
 {
   "name": "escpos",
-  "version": "3.0.0-alpha.6",
+  "version": "5.0.0",
   "description": "ESC/POS Printer driver for nodejs",
   "main": "index.js",
   "scripts": {
@@ -31,12 +31,12 @@
   "dependencies": {
     "canvas": "^2.8.0",
     "esc-pos-encoder": "git+https://github.com/abeersaqib/EscPosEncoder.git",
-    "jsbarcode": "^3.11.5",
-    "uuid": "^8.3.2",
     "get-pixels": "*",
     "iconv-lite": "*",
+    "jsbarcode": "^3.11.5",
     "mutable-buffer": "^2.0.3",
-    "qr-image": "*"
+    "qr-image": "*",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "mocha": "*"
