@@ -29,9 +29,10 @@ function Printer(adapter, options) {
   this.encoding = options && options.encoding || 'GB18030';
   this.width = options && options.width || 48;
   this._model = null;
-  this.bufferWriter = bufferWriter;
 
 };
+
+Printer.bufferWriter = bufferWriter;
 
 Printer.create = function (device) {
   const printer = new Printer(device);
